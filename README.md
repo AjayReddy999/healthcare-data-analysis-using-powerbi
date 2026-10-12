@@ -1,6 +1,5 @@
 # Healthcare Data Analysis using Power BI
 
-
 **Introduction**
 
 Created an interactive dashboard using Power BI to reveal key trends in hospital visitor data for informed decision-making. Utilized DAX for insights into patient demographics and service usage, boosting operational efficiency and patient satisfaction. This dynamic data visualization tool incorporates data modeling principles and various data sources for effective data transformation. By implementing KPIs and utilizing Power Query, healthcare professionals can explore interactive visuals that enhance resource optimization and improve patient care quality through business intelligence.
@@ -32,13 +31,11 @@ Created an interactive dashboard using Power BI to reveal key trends in hospital
 
 The healthcare dataset includes features like Date, ID, Gender, Age, Race, Moment (AM/PM), Weekday/Weekend, Admin Flag (Patient/Non-Patient), Department Referral, and Satisfaction Score. These fields allow for a detailed look at visitor demographics, visit timings, and department engagement, creating a strong basis for trend analysis and operational insights.
 
-
 #### Data Preprocessing:
 
    - **Data Normalization and Imputation:** In the Power Query Editor, the dataset underwent an ETL (Extract, Transform, Load) process, which included normalization by splitting tables to enhance data organization and clarity. Missing values were addressed through imputation techniques, ensuring that the dataset remained robust and reliable for analysis while maintaining consistency across various features.
 
    - **DAX Calculations and Data Modeling:** Data Analysis Expressions(DAX) were utilized to create calculated fields for aggregation, allowing for sophisticated analysis of the healthcare data. This facilitated effective data modeling by establishing relationships between tables, enabling comprehensive insights and enhancing the overall interpretability of the dashboard.
-
 
 #### Visit Trends and Patterns:
 
@@ -50,7 +47,6 @@ The healthcare dataset includes features like Date, ID, Gender, Age, Race, Momen
 
    - **Quarterly Visits:** The second and third quarters exhibited visitor volumes that were **53.9%** higher than the first and fourth quarters. This indicates that mid-year periods are busier, potentially due to seasonal illness peaks.
 
-
 #### Time-Based Distribution:
 
    - **Moment Distribution:** Visitor flow is evenly split between AM and PM hours, with a slight **0.6%** increase during AM visits. This indicates steady demand throughout the day, likely from a mix of appointments and walk-ins.
@@ -59,13 +55,11 @@ The healthcare dataset includes features like Date, ID, Gender, Age, Race, Momen
    
    - **Weekday vs Weekend:** Weekday visits are **148.83%** higher than weekends, reflecting significant weekday traffic. This large difference is due to fewer staff or reduced hours on weekends, encouraging visits during the week.
 
-
 #### Visitor Wait Time Analysis:
 
    - **Average Wait Time:** On average, visitors wait about 35 minutes, with **90.9%** experiencing waits between 20 to 60 minutes. This indicates a significant area for potential process improvement in reducing wait times.
    
    - **Short Wait Times:** Only **9.1%** of visitors experience shorter wait times of 10 to 20 minutes. This low percentage highlights a clear opportunity to enhance service speed and overall patient satisfaction.
-
 
 #### Demographic Insights:
 
@@ -74,7 +68,6 @@ The healthcare dataset includes features like Date, ID, Gender, Age, Race, Momen
    - **Race Distribution:** White and African American visitors comprise the majority, with Asians at a moderate count. Pacific Islander and Native American groups together account for **11.37%**, reflecting a diverse patient population.
    
    - **Gender Distribution:** Male visitors outnumber females by **4.86%**, while the "Not Specified" category represents a minimal 0.26%. This slight gender disparity highlights the need for targeted engagement strategies.
-
 
 #### Satisfaction and Departmental Insights:
 
@@ -100,17 +93,3 @@ Contributions to this project are welcome! If you encounter any issues or have s
 This project is licensed under the MIT License. Please review the LICENSE file for more details.
 
 <br />
-
-**Contact**
-
-Email: pramaseshu@outlook.com
-GitHub: [Ramaseshu0](https://github.com/Ramaseshu0)
-LinkedIn: [rama-seshu](https://www.linkedin.com/in/rama-seshu/)
-
-For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
-
-<br />
-
-**About the Maintainer**
-
-This project is currently maintained by Chinmaya Sri Rama Seshu Pasupuleti, a Data Engineer with 4+ years of experience building enterprise data pipelines, cloud-based ETL/ELT workflows, and analytical data platforms. With hands-on experience in Python, SQL, AWS, and data modeling, Chinmaya ensures the continued relevance and accuracy of this data analysis project.
